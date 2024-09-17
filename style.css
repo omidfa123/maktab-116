@@ -1,0 +1,20 @@
+body {
+  background-color: #d5e1ef;
+}
+.container {
+  height: 100vh;
+}
+.bg-white {
+  background-color: #fff;
+  width: max-content;
+  border-radius: 16px;
+  padding: 12px;
+}
+.heading,
+.subtitle {
+  text-align: center;
+}
+
+.qr-code-image {
+  border-radius: 16px;
+}
