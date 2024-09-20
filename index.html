@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Document</title>
   </head>
   <body>
     <!-- <main>
-      <div>
-        <h1>Maktab</h1>
+      <div class="box">
+        <div>MAMAD</div>
         <h3>Maktab</h3>
         <h4>Maktab</h4>
         <h5>Maktab</h5>
@@ -56,7 +60,7 @@
         ></audio>
       </main>
       <hr />
-      <form action="/api/submit">
+      <form>
         <div>
           <label for="text">text</label>
           <input type="text" id="text" />
@@ -110,12 +114,18 @@
         </div>
         <div>
           <label for="submit">submit</label>
-          <input type="submit" id="range" />
+           <input type="button" id="range" />
+          <button type="button">submit</button>
         </div>
       </form>
     </main> -->
-    <main class="container">
+    <!-- <main class="container">
       <section class="bg-white">
+        <ion-icon name="star-outline"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <img src="./assets/images/icon-star.svg" alt="" />
         <div>
           <img
             class="qr-code-image"
@@ -137,6 +147,52 @@
           <span>the next level</span>
         </p>
       </section>
+    </main> -->
+    <main class="container center">
+      <div class="star-circle">
+        <img class="center" src="./assets/images/icon-star.svg" />
+      </div>
+      <h1 id="h1">How did we do?</h1>
+      <p id="text">
+        Please let us know how we did with your <br />
+        support request. All feedback is appreciated to help us improve our
+        offering!
+      </p>
+      <div class="buttons">
+        <div class="button-wrapper">
+          <input type="radio" id="input1" name="rating" />
+          <label for="input1" class="center">1</label>
+        </div>
+
+        <div class="button-wrapper">
+          <input type="radio" id="input2" name="rating" />
+          <label for="input2" class="center">2</label>
+        </div>
+
+        <div class="button-wrapper">
+          <input type="radio" id="input3" name="rating" />
+          <label for="input3" class="center">3</label>
+        </div>
+
+        <div class="button-wrapper">
+          <input type="radio" id="input4" name="rating" />
+          <label for="input4" class="center">4</label>
+        </div>
+        <div class="button-wrapper">
+          <input type="radio" id="input5" name="rating" />
+          <label for="input5" class="center">5</label>
+        </div>
+      </div>
+
+      <button class="submit-btn" type="submit">SUBMIT</button>
     </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
